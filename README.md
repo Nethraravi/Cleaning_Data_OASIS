@@ -1,5 +1,6 @@
-🧹 Data Cleaning Project | OASIS Infobyte Internship
-📌 Project Overview
+**🧹 Data Cleaning Project | OASIS Infobyte Internship**
+
+📌 **Project Overview**
 
 This project was completed as part of my OASIS Infobyte Data Science Internship.
 The main objective was to clean and preprocess raw Airbnb NYC data to ensure accuracy, consistency, and reliability for future analysis and visualization.
@@ -7,7 +8,7 @@ The main objective was to clean and preprocess raw Airbnb NYC data to ensure acc
 Data cleaning is a crucial part of the data science workflow — it transforms messy, unstructured data into a usable and trustworthy dataset.
 
 
-📊 Dataset
+📊 **Dataset**
 
 Dataset Name: AB_NYC_2019.csv
 
@@ -16,7 +17,8 @@ Source: Airbnb NYC Open Data
 Description: Contains detailed information on Airbnb listings such as price, location, room type, number of reviews, and availability.
 
 
-🧰 Tools & Technologies Used
+🧰 **Tools & Technologies Used**
+
 Tool / Library	Purpose
 Python	Core programming language
 Pandas	Data cleaning, manipulation & transformation
@@ -24,7 +26,8 @@ Matplotlib	Visualization and outlier analysis
 Google Colab / Jupyter Notebook	Development environment
 
 
-🧩 Steps Performed
+🧩 **Steps Performed**
+
 1️⃣ Data Inspection
 
 Loaded dataset using Pandas.
@@ -59,7 +62,6 @@ Price > 1000 USD
 
 Minimum nights > 365
 
-
 6️⃣ Visualization
 
 Created insightful and colorful visualizations to understand data distribution:
@@ -71,21 +73,21 @@ Histogram: Price distribution before & after cleaning
 Bar chart: Average price per neighborhood group
 
 
-🎨 Sample Visualizations
+🎨 **Sample Visualizations**
+
 Visualization	Description
+
 📈 Scatter Plot	Shows relationship between price and minimum_nights after fixing outliers.
+
 📊 Histogram	Compares price distribution before and after cleaning.
+
 🗺️ Bar Chart	Displays average price per neighborhood group.
+
 🧾 Post-Cleaning Summary
-Step	Action	Result
-Missing Values	Filled & standardized	✅ Clean
-Duplicates	Removed	✅ Unique records
-Outliers	Fixed using rules (price ≤ 1000, nights ≤ 365)	✅ Realistic data
-Data Consistency	Ensured across all columns	✅ Standardized
-Visualization	Created for better understanding	✅ Insightful visuals
 
 
-💡 Key Insights
+
+💡 **Key Insights**
 
 Most Airbnb listings in NYC are under $500.
 
